@@ -1,0 +1,216 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+@font-face{
+    font-family: Roboto Black;
+    src: url(../fonts/Roboto-Black.ttf);
+}
+
+@font-face{
+    font-family: Roboto Bold;
+    src: url(../fonts/Roboto-Bold.ttf);
+}
+
+@font-face{
+    font-family: Roboto Regular;
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+
+.btn{
+    font-family: Roboto Bold;
+    color: #FFF;
+    background-color: #F2726F;
+    padding: 16px 20px;
+    width: 210px;
+    border-radius: 8px;
+    &_o{
+        box-shadow: 2px 6px 5px rgba(38, 38, 38, 0.24), -5px 9px 5px rgba(38, 38, 38, 0.15);
+    }
+}
+
+.container{
+    max-width: 1060px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0 auto;
+}
+
+
+.main{
+    background-image: url(../img/BG.png);
+    height: 800px;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    
+    &__title{
+        font-family: Roboto Black;
+        font-size: 56px;
+        color: #FFF;
+        max-width: 600px;
+        padding-top: 240px;
+        margin-bottom: 55px;
+    }
+
+}
+
+.about{
+
+    &__wrap{
+        height: 700px;
+        background-color: #5D62B5;
+        border-radius: 40px;
+        margin-top: -80px;
+        position: relative;
+    }
+    &__dots{
+        position: absolute;
+        right: -76px;
+        top: -109px;
+    }
+    &__dog{
+        border-radius: 40px;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 400px;
+        z-index: 1;
+    }
+    &__bloob{
+        position: absolute;
+        bottom: -160px;
+    }
+    &__title{
+        display: flex;
+        align-items: center;
+        gap: 16px;
+        padding-top: 100px;
+        padding-left: 87px;
+    }
+    &__who{
+        font-family: Roboto Bold;
+        color: #FFF;
+        font-size: 12px;
+    }
+    &__block{
+        padding-top: 33px;
+        padding-left: 87px;
+    }
+    &__nemo{
+        font-family: Roboto Black;
+        color: #FFF;
+        font-size: 36px;
+        max-width: 583px;
+        margin-bottom: 36px;
+    }
+    &__text{
+        font-family: Roboto Regular;
+        font-size: 16px;
+        max-width: 846px;
+        color: #FFF;
+    }
+}
+
+.promise{
+    &__wrap{
+        margin-top: 220px;
+        margin-bottom: 121px;
+    }
+    &__title{
+        display: flex;
+        align-items: center;
+        gap: 16px;
+    }
+    &__headline{
+        font-family: Roboto Black;
+        font-size: 36px;
+        margin-top: 33px;
+        margin-bottom: 68px;
+    }
+    &__our{
+        font-family: Roboto Bold;
+        font-size: 12px;
+        color: #5D62B5;
+        letter-spacing: 2.5px;
+    }
+    &__cards{
+        display: flex;
+        gap: 24px;
+    }
+    &__card{
+        display: flex;
+        align-items: start;
+        gap: 23px;
+    }
+    &__subtitle{
+        font-family: Roboto Black;
+        font-size: 19px;
+        color: #F2726F;
+        margin-bottom: 20px;
+    }
+    &__text{
+        font-family: Roboto Regular;
+        color: #4B4B4B;
+        max-width: 235px;
+    }
+
+}
+.voluptas{
+    &__wrap{
+        background-color: #29C3BE;
+        display: flex;
+        width: 100%;
+        padding-top: 25px;
+        position: relative;
+    }
+    &__title{
+        max-width: 411px;
+        color: #FFF;
+        font-family: Roboto Black;
+        font-size: 36px;
+        margin-bottom: 42px;
+    }
+    &__headline{
+        margin-top: 90px;
+        display: flex;
+        flex-direction: column;
+        z-index: 1;
+    }
+    &__pup{
+        position: relative;
+        top: 0;
+        left: 0;
+        z-index: 2;
+    }
+    &__blod{
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 1;
+
+    }
+    &__dots{
+        position: absolute;
+        top: 122px;
+        left: -34px;
+
+    }
+    &__line{
+        position: absolute;
+        right: 170px;
+        top: 0;
+    }
+    &__ball{
+        position: absolute;
+        top: 175px;
+        right: 88px;
+    }
+
+}
